@@ -1,0 +1,13 @@
+Youtube tham khảo kết nối với firebase
+https://www.youtube.com/watch?v=dZP_UvlyXdQ&list=PL3Ob3F0T-08Y72KEKPlmdsKhLMcWhJLcf
+
+Accounts:
+User
+user@gmail.com
+12345678
+
+Admin
+admin@gmail.com
+tiennv17@gamil.com
+levantung14112002@gmail.com
+12345678
