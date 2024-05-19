@@ -1,44 +1,26 @@
 {
   "project_info": {
-    "project_number": "647994710445",
-    "project_id": "fir-projectstudyenglish",
-    "storage_bucket": "fir-projectstudyenglish.appspot.com"
+    "project_number": "307260890238",
+    "project_id": "dolphintoeic",
+    "storage_bucket": "dolphintoeic.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:647994710445:android:6c8b8f40da31160d696924",
+        "mobilesdk_app_id": "1:307260890238:android:86b1052c2840bafb438c2f",
         "android_client_info": {
           "package_name": "hmd.example.firebaseprojectstudyenglish"
         }
       },
-      "oauth_client": [
-        {
-          "client_id": "647994710445-ia69lbd8c46o74mpe8fgu9lnpm7jqsn7.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "hmd.example.firebaseprojectstudyenglish",
-            "certificate_hash": "162e4e19485e462d50f822c94eeca9d07036c1e1"
-          }
-        },
-        {
-          "client_id": "647994710445-fmv6fu2ek6mas3mutk3p9urd0u0lcljs.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
+      "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyCN2_zNecE3ymQ8C555bdmgoxYbRph-u70"
+          "current_key": "AIzaSyDBSaiWC6RHoKe2PYBnSR8QuJkDXgO79OE"
         }
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "647994710445-fmv6fu2ek6mas3mutk3p9urd0u0lcljs.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
+          "other_platform_oauth_client": []
         }
       }
     }

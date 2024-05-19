@@ -63,7 +63,7 @@ public class ForgotPasswordActivity extends AppCompatActivity {
             @Override
             public void onComplete(@NonNull Task<Void> task) {
                 if(task.isSuccessful()){
-                    Toast.makeText(ForgotPasswordActivity.this,"Hãy kiểm tra (Hộp thư đến) của bạn để tiến hành thiết lập lại mật khẩu!", Toast.LENGTH_LONG).show();
+                    Toast.makeText(ForgotPasswordActivity.this,"Hãy kiểm tra hòm thư email của bạn để tiến hành thiết lập lại mật khẩu!", Toast.LENGTH_LONG).show();
                     Intent intent = new Intent(getApplicationContext(),LoginActivity.class);
                     startActivity(intent);
                 }

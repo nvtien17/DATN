@@ -47,7 +47,7 @@ public class WordMattersActivity extends AppCompatActivity {
             "v", "w", "x", "y", "z"};
     
     private MediaPlayer mediaPlayer;
-    String URL = "https://github.com/duchmdev/huynhminhduc_assets_android_firebase_project_study_english/raw/main/LuyenNghe/Hey%20Mama%20-%20David%20Guetta%20feat_%20Nicki%20Mina.mp3";
+    String URL = "";
     String UL = "hello";
 
     private String textAnswer = "ENGLISH";
@@ -280,7 +280,7 @@ public class WordMattersActivity extends AppCompatActivity {
             {
                 score +=5;
                 DB.capnhatdiem(DB.iduser,user.getPoint(),score);
-                Toast.makeText(WordMattersActivity.this, "Hoàn Thành Xuất Sắc!!~(^.^)~", Toast.LENGTH_SHORT).show();
+                Toast.makeText(WordMattersActivity.this, "Hoàn Thành Xuất Sắc!", Toast.LENGTH_SHORT).show();
                 Intent intent = new Intent(WordMattersActivity.this, FinishHTVActivity.class);
                 intent.putExtra("score",score);
                 intent.putExtra("questiontrue", tu);
@@ -290,7 +290,7 @@ public class WordMattersActivity extends AppCompatActivity {
             }
             else {
                 if(tu > 0) doStop();
-                Toast.makeText(WordMattersActivity.this, "Chính xác!!(^.^)", Toast.LENGTH_SHORT).show();
+                Toast.makeText(WordMattersActivity.this, "Chính xác!", Toast.LENGTH_SHORT).show();
                 Bitmap img= BitmapFactory.decodeByteArray(DStuvung.get(tu).getAnh(),0,DStuvung.get(tu).getAnh().length);
                 imgview.setImageBitmap(img);
                 imgview.startAnimation(smalltobig);
@@ -310,7 +310,7 @@ public class WordMattersActivity extends AppCompatActivity {
             }
 
         } else {
-            Toast.makeText(WordMattersActivity.this, "Sai rồi!!(T.T)", Toast.LENGTH_SHORT).show();
+            Toast.makeText(WordMattersActivity.this, "Sai rồi!", Toast.LENGTH_SHORT).show();
             editText.setText("");
         }
 

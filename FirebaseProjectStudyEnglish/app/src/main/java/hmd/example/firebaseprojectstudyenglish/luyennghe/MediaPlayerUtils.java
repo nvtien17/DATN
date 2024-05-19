@@ -11,7 +11,7 @@ import hmd.example.firebaseprojectstudyenglish.singletonpattern.MessageObject;
 
 
 public class MediaPlayerUtils {
-    public static final String URL_MEDIA_SAMPLE  = "https://github.com/duchmdev/huynhminhduc_assets_android_firebase_project_study_english/raw/main/LuyenNghe/Hey%20Mama%20-%20David%20Guetta%20feat_%20Nicki%20Mina.mp3";
+    public static final String URL_MEDIA_SAMPLE  = "";
 
     public static final String LOG_TAG= "MediaPlayerTutorial";
 

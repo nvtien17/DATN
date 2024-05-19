@@ -44,7 +44,7 @@ public class DSTuVungActivity extends AppCompatActivity {
         AddArrayTV();
 
         if(DStuvung.size() <= 0) {
-            Toast.makeText(DSTuVungActivity.this, "Nội dung sẽ cập nhật cập nhật trong thời gian sớm nhất! Mong mọi người thông càm!!", Toast.LENGTH_LONG).show();
+            Toast.makeText(DSTuVungActivity.this, "Nội dung sẽ cập nhật cập nhật trong thời gian sớm nhất!", Toast.LENGTH_LONG).show();
             Intent error = new Intent(DSTuVungActivity.this,HocTuVungActivity.class);
             finish();
             startActivity(error);

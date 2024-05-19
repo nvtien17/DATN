@@ -13,27 +13,27 @@
         android:scaleType="centerInside"
         android:layout_height="130dp"
         android:layout_marginTop="80dp"
-        android:src="@drawable/icon"
+        android:src="@drawable/icon_dolphin2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
 
         />
-    <ImageView
-        android:id="@+id/imageView_logoRays"
-        android:layout_width="130dp"
-        android:scaleType="centerInside"
-        android:layout_height="130dp"
-        android:layout_marginTop="80dp"
-        android:rotation="0"
-        android:background="@drawable/icon2"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+<!--    <ImageView-->
+<!--        android:id="@+id/imageView_logoRays"-->
+<!--        android:layout_width="130dp"-->
+<!--        android:scaleType="centerInside"-->
+<!--        android:layout_height="130dp"-->
+<!--        android:layout_marginTop="80dp"-->
+<!--        android:rotation="0"-->
+<!--        android:background="@drawable/icon2"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
 
-        />
+<!--        />-->
 
     <ImageView
         android:id="@+id/imageView_cloudLeft"
@@ -77,7 +77,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="sans-serif-medium"
-            android:text="Ứng dụng học ngôn ngữ"
+            android:text="DOLPHIN TOEIC"
             android:textColor="@color/textHeadline"
             android:textSize="20sp" />
 
@@ -122,10 +122,10 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
             android:background="@drawable/login_button_bg"
-            android:backgroundTint="@color/colorPrimary"
+            android:backgroundTint="@color/light_blue"
             android:text="Login"
             android:textColor="@color/white"
-            app:backgroundTint="#FFB20C" />
+            app:backgroundTint="@color/light_blue" />
 
     </LinearLayout>
 

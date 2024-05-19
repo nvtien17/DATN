@@ -44,7 +44,7 @@ public class ListeningActivity extends AppCompatActivity {
 
     User user;
 
-    String URL = "https://github.com/duchmdev/huynhminhduc_assets_android_firebase_project_study_english/raw/main/LuyenNghe/Hey%20Mama%20-%20David%20Guetta%20feat_%20Nicki%20Mina.mp3";
+    String URL = "";
     int questioncurrent = 0;
     int questiontrue = 0;
     int answer=0;

@@ -245,7 +245,7 @@ public class ArrangeSentencesActivity extends AppCompatActivity {
             {
                 score +=5;
                 DB.capnhatdiem(DB.iduser,user.getPoint(),score);
-                Toast.makeText(ArrangeSentencesActivity.this, "Hoàn Thành Xuất Sắc!!~(^.^)~", Toast.LENGTH_SHORT).show();
+                Toast.makeText(ArrangeSentencesActivity.this, "Hoàn Thành Xuất Sắc!", Toast.LENGTH_SHORT).show();
                 Intent intent = new Intent(ArrangeSentencesActivity.this, FinishSXCActivity.class);
                 intent.putExtra("score",score);
                 intent.putExtra("questiontrue", cau);
@@ -254,7 +254,7 @@ public class ArrangeSentencesActivity extends AppCompatActivity {
                 finish();
             }
             else {
-                Toast.makeText(ArrangeSentencesActivity.this, "Chính xác!!(^.^)", Toast.LENGTH_SHORT).show();
+                Toast.makeText(ArrangeSentencesActivity.this, "Chính xác!", Toast.LENGTH_SHORT).show();
                 textAnswer = cauSapXeps.get(cau).getDapan();
                 keys[0] = cauSapXeps.get(cau).getPart1();
                 keys[1] = cauSapXeps.get(cau).getPart2();
@@ -268,7 +268,7 @@ public class ArrangeSentencesActivity extends AppCompatActivity {
             }
 
         } else {
-            Toast.makeText(ArrangeSentencesActivity.this, "Sai rồi!!(T.T)", Toast.LENGTH_SHORT).show();
+            Toast.makeText(ArrangeSentencesActivity.this, "Sai rồi!", Toast.LENGTH_SHORT).show();
             editText.setText("");
         }
 

@@ -27,33 +27,32 @@
         app:layout_constraintVertical_bias="0.0"
         tools:ignore="UseAppTint" />
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:layout_marginLeft="32dp"
+<!--    <TextView-->
+<!--        android:id="@+id/textView"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="32dp"-->
+<!--        android:layout_marginLeft="32dp"-->
 
-        android:layout_marginTop="18dp"
-        android:text="Hello!"
-        android:textColor="@color/black"
-        android:textSize="36sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+<!--        android:layout_marginTop="18dp"-->
+<!--        android:text="Hello!"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:textSize="36sp"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="18dp"
-        android:text="Admin!"
+        android:text="Admin"
         android:textColor="@color/black"
         android:textSize="36sp"
         android:textStyle="bold
 "
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.535"
-        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ListView
@@ -81,7 +80,6 @@
         android:tint="@color/white"
         app:layout_constraintBottom_toTopOf="@+id/listviewAdminTN"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
         app:layout_constraintVertical_bias="0.0"
         tools:ignore="UseAppTint" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -90,7 +90,7 @@ public class SignupActivity extends AppCompatActivity {
                                                 // if the user created intent to login activity
                                                 rootNode= FirebaseDatabase.getInstance();
                                                 reference= rootNode.getReference("User");
-                                                User newuser = new User(mAuth.getCurrentUser().getUid(), hoten,0,email,sdt, 0);
+                                                User newuser = new User(mAuth.getCurrentUser().getUid(), hoten,0,email,sdt, 1);
                                                 reference.child(FirebaseAuth.getInstance().getCurrentUser().getUid()).setValue(newuser);
 
                                                 Intent intent = new Intent(getApplicationContext(),LoginActivity.class);

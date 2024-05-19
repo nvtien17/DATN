@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/yellowbackground"
+    android:background="@drawable/bluebackground"
     tools:context=".ui.home.HomeFragment">
 <androidx.constraintlayout.widget.ConstraintLayout
     android:layout_width="match_parent"
@@ -19,7 +19,7 @@
         android:layout_marginLeft="16dp"
         android:layout_marginTop="24dp"
         android:fontFamily="@font/bungee"
-        android:text="Sunny Sky"
+        android:text="@string/nav_header_title"
         android:textSize="30sp"
         app:layout_constraintEnd_toStartOf="@+id/imageView3"
         app:layout_constraintStart_toStartOf="parent"

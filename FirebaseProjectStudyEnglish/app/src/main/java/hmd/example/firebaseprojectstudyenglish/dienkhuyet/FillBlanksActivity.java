@@ -56,7 +56,7 @@ public class FillBlanksActivity extends AppCompatActivity {
         AddArrayCDK();
 
         if(cauDienKhuyets.size() <= 0) {
-            Toast.makeText(FillBlanksActivity.this, "Nội dung sẽ cập nhật cập nhật trong thời gian sớm nhất! Mong mọi người thông càm!!", Toast.LENGTH_LONG).show();
+            Toast.makeText(FillBlanksActivity.this, "Nội dung sẽ cập nhật cập nhật trong thời gian sớm nhất!", Toast.LENGTH_LONG).show();
             Intent error = new Intent(FillBlanksActivity.this, DienKhuyetActivity.class);
             finish();
             startActivity(error);
